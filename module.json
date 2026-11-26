@@ -3,6 +3,12 @@
   "title": "Scene Stations",
   "description": "Permette di configurare background sequenziali a stazioni con transizione a scorrimento.",
   "version": "1.0.0",
+  "authors": [
+    {
+      "name": "rokspace",
+      "url": "https://github.com/rokspace"
+    }
+  ],
   "compatibility": {
     "minimum": "14",
     "verified": "14"
@@ -12,5 +18,10 @@
   ],
   "styles": [
     "styles/stations.css"
-  ]
+  ],
+  "url": "https://github.com/rokspace/scene-stations",
+  "manifest": "https://github.com/rokspace/scene-stations/releases/latest/download/module.json",
+  "download": "https://github.com/rokspace/scene-stations/releases/download/v1.0.0/module.zip",
+  "readme": "https://github.com/rokspace/scene-stations/blob/main/README.md",
+  "license": "https://github.com/rokspace/scene-stations/blob/main/LICENSE"
 }
