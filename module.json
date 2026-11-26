@@ -1,0 +1,16 @@
+{
+  "id": "scene-stations",
+  "title": "Scene Stations",
+  "description": "Permette di configurare background sequenziali a stazioni con transizione a scorrimento.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/stations.css"
+  ]
+}

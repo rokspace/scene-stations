@@ -1,0 +1,90 @@
+.ss-config-fieldset {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+}
+
+.ss-hidden {
+  display: none !important;
+}
+
+#ss-canvas-hud {
+  position: fixed;
+  bottom: 24px;
+  right: 320px;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  background: rgba(20, 22, 26, 0.9);
+  border: 1px solid rgba(180, 185, 195, 0.25);
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+  color: #e2e5ea;
+  backdrop-filter: blur(4px);
+}
+
+#ss-canvas-hud button {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  color: #e2e5ea;
+  cursor: pointer;
+}
+
+#ss-canvas-hud button:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+#ss-canvas-hud button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.ss-hud-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 85px;
+  line-height: 1.2;
+}
+
+.ss-hud-step {
+  font-size: 11px;
+  opacity: 0.65;
+}
+
+.ss-hud-name {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#ss-canvas-hud {
+  user-select: none;
+  cursor: grab;
+}
+
+#ss-canvas-hud.ss-dragging {
+  cursor: grabbing;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.6);
+}
+
+.ss-drag-handle {
+  display: flex;
+  align-items: center;
+  padding: 0 2px;
+  opacity: 0.45;
+  font-size: 13px;
+}
+
+#ss-canvas-hud:hover .ss-drag-handle {
+  opacity: 0.85;
+}
