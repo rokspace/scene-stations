@@ -1,0 +1,11 @@
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Editor e IDE
+.vscode/
+.idea/
+
+# Dipendenze e archivi locali
+node_modules/
+*.zip
